@@ -2,38 +2,48 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<title>Lana Karine | Portfólio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lana Karine | Portfólio de Desenvolvedora</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <h1>Lana Karine</h1>
-    <p>Estudante de Sistemas de Informação</p>
+<header class="hero">
+    <div class="hero-content">
+        <h1>Lana Karine</h1>
+        <p>Estudante de Sistemas de Informação</p>
+
+        <div class="buttons">
+            <a href="https://www.linkedin.com/in/lana-karine-1438b020b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="mailto:karinelana03@gmail.com" target="_blank">Email</a>
+        </div>
+    </div>
 </header>
 
-<section>
+<main>
+
+<section class="card hidden">
     <h2>Sobre mim</h2>
     <p>
         Tenho interesse em desenvolvimento de software e análise de dados.
-        Possuo conhecimentos em Python, SQL e desenvolvimento web.
+        Possuo conhecimentos em Python, SQL e desenvolvimento web (HTML, CSS e JavaScript).
         Tenho facilidade em aprender novas tecnologias e busco aprimorar meus conhecimentos com projetos práticos.
     </p>
 </section>
 
-<section>
+<section class="card hidden">
     <h2>Tecnologias</h2>
-    <ul>
-        <li>Python</li>
-        <li>SQL</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
+    <div class="tags">
+        <span>Python</span>
+        <span>SQL</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+    </div>
 </section>
 
-<section>
+<section class="card hidden">
     <h2>Projetos</h2>
     <ul>
         <li>Sistema de recomendação de disciplinas</li>
@@ -42,12 +52,16 @@
     </ul>
 </section>
 
-<section>
+<section class="card hidden">
     <h2>Contato</h2>
-    <p>Email: karinelana03@gmail.com</p>
-    <p>Telefone: (91) 99107-5101</p>
-    <p>LinkedIn: linkedin.com/in/lana-karine-1438b020b</p>
+    <p>📧 <a href="mailto:karinelana03@gmail.com" target="_blank">karinelana03@gmail.com</a></p>
+    <p>📱 <a href="tel:+5591991075101">(91) 99107-5101</a></p>
+    <p>🔗 <a href="https://www.linkedin.com/in/lana-karine-1438b020b" target="_blank" rel="noopener noreferrer">
+        linkedin.com/in/lana-karine-1438b020b
+    </a></p>
 </section>
+
+</main>
 
 <button id="btnTopo">↑</button>
 
