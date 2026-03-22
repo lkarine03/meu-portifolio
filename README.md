@@ -1,2 +1,2 @@
 # meu-portifolio
-Seu perfil  linkedin.com/in/lana-karine-1438b020b
+Página pessoal desenvolvida com HTML e CSS para apresentação de perfil, tecnologias, projetos e contato
