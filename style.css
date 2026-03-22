@@ -1,53 +1,79 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
+    font-family: 'Segoe UI', sans-serif;
     background: #f4f6f8;
     color: #2c3e50;
 }
 
-header {
-    background: #2c3e50;
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
     color: white;
     text-align: center;
-    padding: 40px 20px;
+    padding: 60px 20px;
 }
 
-section {
-    max-width: 800px;
-    margin: 30px auto;
-    padding: 0 20px;
+.hero h1 {
+    margin: 0;
+    font-size: 2.5em;
 }
 
+/* MAIN */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* CARDS */
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+/* TITLES */
 h2 {
     border-bottom: 2px solid #2c3e50;
     padding-bottom: 5px;
 }
 
+/* TAGS */
+.tags span {
+    display: inline-block;
+    background: #2c3e50;
+    color: white;
+    padding: 6px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+/* LIST */
 ul {
-    list-style: none;
-    padding: 0;
+    padding-left: 20px;
 }
 
-li {
-    background: white;
-    margin: 8px 0;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-
-button {
+/* BUTTON */
+#btnTopo {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    padding: 10px;
-    border: none;
     background: #2c3e50;
     color: white;
+    border: none;
+    padding: 12px;
     border-radius: 50%;
     cursor: pointer;
 }
 
-button:hover {
+#btnTopo:hover {
     background: #34495e;
 }
