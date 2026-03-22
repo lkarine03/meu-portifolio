@@ -13,11 +13,7 @@ window.addEventListener("scroll", () => {
 const btnTopo = document.getElementById("btnTopo");
 
 window.addEventListener("scroll", () => {
-    if (window.scrollY > 300) {
-        btnTopo.style.display = "block";
-    } else {
-        btnTopo.style.display = "none";
-    }
+    btnTopo.style.display = window.scrollY > 300 ? "block" : "none";
 });
 
 btnTopo.addEventListener("click", () => {
