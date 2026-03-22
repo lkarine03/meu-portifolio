@@ -5,7 +5,7 @@ body {
     color: #e2e8f0;
 }
 
-/* HEADER */
+/* HERO */
 .hero {
     background: linear-gradient(135deg, #0f172a, #1e293b);
     text-align: center;
@@ -13,20 +13,16 @@ body {
 }
 
 .hero h1 {
-    font-size: 40px;
-    margin-bottom: 10px;
+    font-size: 36px;
 }
 
 .subtitle {
     color: #94a3b8;
-    font-size: 16px;
-    margin-bottom: 10px;
 }
 
 .status {
     color: #22c55e;
-    font-weight: 500;
-    margin-bottom: 20px;
+    margin: 10px 0 20px;
 }
 
 /* BOTÕES */
@@ -38,7 +34,6 @@ body {
     color: white;
     border-radius: 6px;
     text-decoration: none;
-    transition: 0.3s;
 }
 
 .buttons a:hover {
@@ -58,7 +53,6 @@ main {
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
     opacity: 0;
     transform: translateY(20px);
     transition: 0.5s;
@@ -69,35 +63,18 @@ main {
     transform: translateY(0);
 }
 
-.card:hover {
-    transform: translateY(-3px);
-}
-
 /* TITULOS */
 h2 {
     color: #38bdf8;
-    margin-bottom: 10px;
 }
 
 /* TAGS */
 .tags span {
-    display: inline-block;
     background: #334155;
     padding: 6px 12px;
     margin: 5px;
     border-radius: 6px;
-    font-size: 14px;
-}
-
-/* LISTA */
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    margin: 8px 0;
-    line-height: 1.5;
+    display: inline-block;
 }
 
 /* LINKS */
@@ -118,12 +95,8 @@ a:hover {
     background: #2563eb;
     color: white;
     border: none;
-    padding: 10px 14px;
+    padding: 10px;
     border-radius: 50%;
     cursor: pointer;
     display: none;
-}
-
-#btnTopo:hover {
-    background: #1d4ed8;
 }
