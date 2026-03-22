@@ -1,31 +1,25 @@
-# 👩‍💻 Lana Karine
+# Portfólio - Lana Karine
 
-Portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e evolução na área de tecnologia.
+Criei esse site para apresentar um pouco sobre mim, meus projetos e o que venho aprendendo na área de tecnologia.
 
-## 🚀 Sobre
+## Sobre
 
-Sou estudante de Sistemas de Informação com foco em desenvolvimento de sistemas e manipulação de dados.
+Sou estudante de Sistemas de Informação e tenho interesse em desenvolvimento de sistemas e dados.
 
-Tenho conhecimentos em:
-- Python
-- SQL / MySQL
-- Lógica de programação
-- Desenvolvimento web
+Tenho conhecimento em Python, SQL e desenvolvimento web, e estou sempre buscando melhorar na prática.
 
-Busco evoluir constantemente por meio de projetos práticos e desafios reais.
+## Acesse
 
-## 🌐 Acesse o portfólio
+https://lkarine03.github.io/meu-portifolio/
 
-👉 https://lkarine03.github.io/meu-portifolio/
-
-## 📌 Projetos
+## Projetos
 
 - Sistema de recomendação de disciplinas  
 - Facilita Conselho de Classe  
 - Sistema de controle de tarefas  
 
-## 📫 Contato
+## Contato
 
-- Email: karinelana03@gmail.com  
-- LinkedIn: https://www.linkedin.com/in/lana-karine-1438b020b  
-- GitHub: https://github.com/lkarine03  
+Email: karinelana03@gmail.com  
+LinkedIn: https://www.linkedin.com/in/lana-karine-1438b020b  
+GitHub: https://github.com/lkarine03  
