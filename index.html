@@ -1,107 +1,89 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Lana Karine | Desenvolvimento de Sistemas</title>
-
-<meta name="description" content="Portfólio com foco em desenvolvimento de sistemas, SQL e lógica de programação.">
-
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Lana Karine: projetos em desenvolvimento de software, Java, Python e aplicações web.">
+    <title>Lana Karine | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-<header class="hero">
-    <div class="hero-content">
-        <h1>Lana Karine</h1>
-
-        <p class="subtitle">
-            Desenvolvimento de Sistemas | SQL | Lógica de Programação
-        </p>
-
-        <p class="status">
-            Aprendizado rápido • Projetos práticos • Evolução constante
-        </p>
-
-        <div class="buttons">
-            <a href="https://www.linkedin.com/in/lana-karine-1438b020b" target="_blank">LinkedIn</a>
-            <a href="https://github.com/lkarine03" target="_blank">GitHub</a>
-            <a href="mailto:karinelana03@gmail.com">Email</a>
-            <a href="https://wa.me/5591991075101" target="_blank">WhatsApp</a>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Lana Karine</h1>
+            <p class="subtitle">Desenvolvimento de Software | Java · Python · React · TypeScript</p>
+            <p class="status">Estudante de Sistemas de Informação — UFPA</p>
+            <div class="buttons">
+                <a href="https://www.linkedin.com/in/lana-karine-1438b020b" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://github.com/lkarine03" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="mailto:karinelana03@gmail.com">E-mail</a>
+            </div>
         </div>
-    </div>
-</header>
+    </header>
 
-<main>
+    <main>
+        <section class="card hidden" aria-labelledby="sobre">
+            <h2 id="sobre">Sobre mim</h2>
+            <p>
+                Sou estudante de Sistemas de Informação na Universidade Federal do Pará (UFPA)
+                e técnica em Informática para Internet pelo IEMA. Gosto de aprender novas tecnologias
+                e colocar meus conhecimentos em prática por meio de projetos individuais e em equipe.
+            </p>
+            <p>
+                Tenho interesse principalmente em desenvolvimento de software, tanto frontend quanto backend.
+                Também venho estudando computação em nuvem, infraestrutura e práticas de DevOps.
+            </p>
+        </section>
 
-<section class="card hidden">
-    <h2>Sobre mim</h2>
-    <p>
-        Sou estudante de Sistemas de Informação com foco em desenvolvimento de sistemas e dados.
-        Tenho conhecimentos em SQL, Python e lógica de programação, além de experiência com desenvolvimento web.
+        <section class="card hidden" aria-labelledby="tecnologias">
+            <h2 id="tecnologias">Tecnologias</h2>
+            <div class="tags">
+                <span>Java</span>
+                <span>Spring Boot</span>
+                <span>Python</span>
+                <span>Flask</span>
+                <span>JavaScript</span>
+                <span>TypeScript</span>
+                <span>React</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>SQL</span>
+                <span>MySQL</span>
+                <span>Git</span>
+            </div>
+        </section>
 
-        Tenho facilidade em aprender novas tecnologias e me adapto rapidamente a diferentes linguagens,
-        buscando evoluir por meio de projetos práticos e desafios reais.
-    </p>
-</section>
+        <section class="card hidden" aria-labelledby="projetos">
+            <h2 id="projetos">Projetos</h2>
+            <ul class="project-list">
+                <li>
+                    <a href="https://github.com/lkarine03/catalogo-livros" target="_blank" rel="noopener noreferrer">Catálogo de Livros</a>
+                    <p>Projeto de estudos em Java e Spring Boot para praticar APIs REST, operações CRUD e persistência com H2. Ainda não testado localmente.</p>
+                </li>
+                <li>
+                    <a href="https://github.com/cloudops-squad-2/hackaton-portal-dos-links" target="_blank" rel="noopener noreferrer">Encolhe! — Portal dos Links</a>
+                    <p>Projeto colaborativo de encurtamento de links desenvolvido em equipe durante um hackathon.</p>
+                </li>
+                <li>
+                    <a href="https://github.com/lkarine03/controle-tarefas-sql" target="_blank" rel="noopener noreferrer">Sistema de Controle de Tarefas</a>
+                    <p>Aplicação de estudos com Python, Flask e MySQL, voltada à prática de operações CRUD e integração com banco de dados.</p>
+                </li>
+                <li>
+                    <a href="https://github.com/lkarine03/analise-feedbacks-escolares" target="_blank" rel="noopener noreferrer">Análise de Feedbacks Escolares</a>
+                    <p>Aplicação web em HTML, CSS e JavaScript para organizar e filtrar feedbacks escolares.</p>
+                </li>
+            </ul>
+        </section>
 
-<section class="card hidden">
-    <h2>Tecnologias</h2>
-    <div class="tags">
-        <span>Python</span>
-        <span>SQL</span>
-        <span>MySQL</span>
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
-    </div>
-</section>
+        <section class="card hidden" aria-labelledby="contato">
+            <h2 id="contato">Contato</h2>
+            <p><a href="mailto:karinelana03@gmail.com">karinelana03@gmail.com</a></p>
+            <p><a href="https://www.linkedin.com/in/lana-karine-1438b020b" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+            <p><a href="https://github.com/lkarine03" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+        </section>
+    </main>
 
-<section class="card hidden">
-    <h2>Projetos</h2>
-    <ul>
-        <li>
-             <a href="https://github.com/lkarine03/sistema-recomendacao-disciplinas" target="_blank">
-            Sistema de recomendação de disciplinas</a>
-        </li>
-
-        <li>
-             <a href="https://github.com/lkarine03/facilita-conselho-classe" target="_blank">
-            Facilita Conselho de Classe</a>
-        </li>
-
-        <li>
-            <a href="https://github.com/lkarine03/sistema-controle-tarefas" target="_blank">
-            Sistema de controle de tarefas</a>
-        </li>
-    </ul>
-</section>
-
-<section class="card hidden">
-    <h2>Contato</h2>
-
-    <p>📧 <a href="mailto:karinelana03@gmail.com">karinelana03@gmail.com</a></p>
-
-    <p>💬 <a href="https://wa.me/5591991075101" target="_blank">
-        Falar no WhatsApp
-    </a></p>
-
-    <p>🔗 <a href="https://www.linkedin.com/in/lana-karine-1438b020b" target="_blank">
-        LinkedIn
-    </a></p>
-
-    <p>💻 <a href="https://github.com/lkarine03" target="_blank">
-        GitHub
-    </a></p>
-</section>
-
-</main>
-
-<button id="btnTopo">↑</button>
-
-<script src="script.js"></script>
-
+    <button id="btnTopo" type="button" aria-label="Voltar ao topo">↑</button>
+    <script src="script.js"></script>
 </body>
 </html>
